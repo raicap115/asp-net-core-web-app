@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "VISUALIZAR ASISTENCIA";
+}
+
+<div class="container">
+      <div style="margin-top: 15px; margin-bottom: 20px;"><h1 style="font-weight: 600;">Tecnología de Información I</h1></div>
+
+      <div style="margin-bottom: 20px;"><a asp-action="Lis_Alu"><button type="button" class="btn btn-success" style="width: 100%;">+ CREAR ASISTENCIA</button></a></div>
+
+      <div style="margin-top: 30px;">
+        <h6 style="font-weight: 600;">Asistencias guardadas:</h6>
+      </div>
+
+      <!-- "FOR" REPETIR FECHAS DE LA BD -->
+      <div style="margin-top: 15px; margin-bottom: 10px;">
+        <div class="card" style="width: 100%; background: rgb(158, 158, 158);">
+          <div class="card-body">
+            <!-- DATOS A REPETIR CON INFO DE LA BD -->
+            <div class="row">
+              <div class="col-lg-11"><h7 class="card-title" style="font-weight: 530; color: #000000;">Asistencia del día 03/04/2021</h7></div>
+              <div class="col-lg-1"><a asp-action="Lis_Alu" class="btn btn-danger" style="text-align: right;">Editar</a></div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FECHAS REPETIDAS EN EL "FOR" -->
+      <div style="margin-top: 15px; margin-bottom: 10px;">
+        <div class="card" style="width: 100%; background: rgb(158, 158, 158);">
+          <div class="card-body">
+            <!-- DATOS A REPETIR CON INFO DE LA BD -->
+            <div class="row">
+              <div class="col-lg-11"><h7 class="card-title" style="font-weight: 530; color: #000000;">Asistencia del día 05/04/2021</h7></div>
+              <div class="col-lg-1"><a asp-action="Lis_Alu" class="btn btn-danger" style="text-align: right;">Editar</a></div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FECHAS REPETIDAS EN EL "FOR" -->
+      <div style="margin-top: 15px; margin-bottom: 10px;">
+        <div class="card" style="width: 100%; background: rgb(158, 158, 158);">
+          <div class="card-body">
+            <!-- DATOS A REPETIR CON INFO DE LA BD -->
+            <div class="row">
+              <div class="col-lg-11"><h7 class="card-title" style="font-weight: 530; color: #000000;">Asistencia del día 08/04/2021</h7></div>
+              <div class="col-lg-1"><a asp-action="Lis_Alu" class="btn btn-danger" style="text-align: right;">Editar</a></div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>

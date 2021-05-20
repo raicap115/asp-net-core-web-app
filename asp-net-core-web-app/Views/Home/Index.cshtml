@@ -1,12 +1,39 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "INICIO DOCENTE";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to my first page 
-        
-    </h1>
-    <br>
-    <p>By Iats</p>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<div class="container">
+    <div style="margin-top: 15px; margin-bottom: 20px;"><h2 style="font-weight: 600;">Cursos</h2></div>
+
+      <!-- "FOR" REPETIR CURSOS DE LA BD -->
+    <div style="margin-top: 15px; margin-bottom: 10px;">
+        <a asp-action="Vis_Asis"><div class="card" style="width: 100%; background: rgb(158, 158, 158);">
+            <div class="card-body">
+                <!-- DATOS A REPETIR CON INFO DE LA BD -->
+                <h5 class="card-title" style="font-weight: bold; color: #000000;">Tecnología de Información I</h5>
+                <p class="card-text" style="text-align: right; font-size: small; color: rgb(39, 39, 39);">091115>03M02</p>
+            </div>
+        </div></a>
+    </div>
+
+      <div style="margin-top: 15px; margin-bottom: 10px;">
+        <a href="#"><div class="card" style="width: 100%; background: rgb(158, 158, 158);">
+          <div class="card-body">
+            <!-- DATOS A REPETIR CON INFO DE LA BD -->
+            <h5 class="card-title" style="font-weight: bold; color: #000000;">Tecnología de Información II</h5>
+            <p class="card-text" style="text-align: right; font-size: small; color: rgb(39, 39, 39);">091149>04M01</p>
+          </div>
+        </div></a>
+      </div>
+
+      <div style="margin-top: 15px; margin-bottom: 10px;">
+        <a href="#"><div class="card" style="width: 100%; background: rgb(158, 158, 158);">
+          <div class="card-body">
+            <!-- DATOS A REPETIR CON INFO DE LA BD -->
+            <h5 class="card-title" style="font-weight: bold; color: #000000;">Inteligencia Artificial y Robótica</h5>
+            <p class="card-text" style="text-align: right; font-size: small; color: rgb(39, 39, 39);">090666>07T01</p>
+          </div>
+        </div></a>
+      </div>
+
+    </div>

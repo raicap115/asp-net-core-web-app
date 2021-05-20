@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,30 +9,16 @@ using asp_net_core_web_app.Models;
 
 namespace asp_net_core_web_app.Controllers
 {
-    public class HomeController : Controller
+    public class AdminController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<AdminController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public AdminController(ILogger<AdminController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Config()
-        {
-            return View();
-        }
-
-        public IActionResult Lis_Alu()
-        {
-            return View();
-        }
-        public IActionResult Vis_Asis()
         {
             return View();
         }
