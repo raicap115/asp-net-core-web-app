@@ -5,4 +5,9 @@
     <RootNamespace>asp_net_core_web_app</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CData.Cloudant" Version="20.0.7654" />
+    <PackageReference Include="MyCouch.Cloudant" Version="4.0.0" />
+  </ItemGroup>
+
 </Project>
